@@ -1,0 +1,40 @@
+
+[
+    {
+        "id":1,
+        "name":"fifa",
+        
+        
+        "imgUrl" : "https://wallpaperaccess.com/full/6133236.jpg",
+        "isLive": true
+    },
+    {
+        "id":2,
+        "name":"nba",
+    
+        "imgUrl" : "https://wallpapercave.com/dwp1x/wp4422803.jpg",
+        "isLive": false
+    },
+    {
+        "id":3,
+        "name":"Mortal Kombat",
+        
+        "imgUrl" : "https://images3.alphacoders.com/130/thumbbig-130739.webp",
+        "isLive": true
+    },
+    {
+        "id":3,
+        "name":"Need For Speed",
+        
+        "imgUrl" : "https://images6.alphacoders.com/374/thumbbig-374327.webp",
+        "isLive": false
+    },
+    {
+        "id":3,
+        "name":"Call Of Duty",
+        
+        "imgUrl" : "https://wallpaperaccess.com/full/641724.jpg",
+        "isLive": true
+    }
+
+] 

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+
+
+
+.online{
+    
+    margin-top: 8%;
+    font-family: 'Lexend';
+
+    .watch{
+        color: #F59E0B;
+        margin-left: 16px;
+        position: relative;
+        bottom: 12px;
+        left: 43px;
+    }
+
+    
+        .line {
+            position: relative;
+            width: 4%;
+            height: 0;
+          }
+          
+          .line:before {
+            content: "";
+            position: absolute;
+            top: 90%;
+            left: 20%;
+            right: 0;
+            border: 1px solid #F59E0B;
+            
+        
+        }
+          
+    
+    
+}
+
+
+.live_update{
+    
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    margin-left: 14px;
+    margin-bottom: 3%;
+
+    h3{
+        
+        color: #1B1C57;
+        font-family: 'Lexend';
+        
+    }
+    
+}
+
+.live_div{
+    
+    display: flex;
+    width: 32%;
+    justify-content: space-between;
+    ;
+    
+
+    .live_button{
+        
+        // padding: 1px 10px;
+        // display: flex;
+        // align-items: center;
+        // background: #7dbd8e;
+        // margin-right: 10px;
+
+        padding: 2px 15px;
+        
+        color: white;
+        border: none;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        background: #D1FAE5;
+        color: #10B981;
+        
+    }
+
+    .recorded{
+        
+        // border: 1px solid grey;
+        // padding: 2px 10px;
+        // display: flex;
+        // align-items: center;
+        padding: 5px 15px;
+        color: white;
+        border: 2px solid whitesmoke;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        background: white;
+        color: #888B97;
+    }
+
+    .offline{
+        
+        // margin-left: 10px;
+        // padding: 2px 10px;
+        // border: 1px solid grey;
+        // align-items: center;
+        padding: 5px 15px;
+        border: 2px solid whitesmoke;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        background: white;
+        color: #888B97;
+    }
+}
+
+.store_item{
+    
+    display: flex;
+    margin-top: 20px;
+}

@@ -1,0 +1,73 @@
+.footer{
+    
+    //     justifyContent:'space-between',
+        
+    //     padding:'15px',
+    //     backgroundImage:`url(${imgg})`,
+    //     backgroundSize:'cover',
+    //     backgroundPosition:'right bottom',
+    //     paddingTop:'70px',
+    //     backgroundRepeat:'no-repeat'
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-image: url('../assets/images/Design_Vector_3.png');
+    background-size: contain;
+    // background-position: right bottom;
+    
+    padding-top: 70px;
+    margin-top: 5%;
+    background-repeat: no-repeat;
+}
+
+.foot{
+    
+    display: flex;
+    background-image: url('../assets/images/Design_Vector_3.png');
+    background-size: cover;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    width: 89%;
+    margin-top: 5%;
+    font-family: 'Lexend';
+    color: #888B97;
+
+    .logo_footer{
+        
+        margin: 0px 50px;
+        margin-right: 5%;
+       
+        width: 30%;
+        padding-left: 0px;
+        position: relative;
+        right: 30px;
+        
+
+        .img{
+            
+            padding-right: 20px;
+            padding-left: 0px;
+        }
+
+        .socialMedia_icons{
+            
+            width: 40%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 60px;
+            
+        }
+        
+    }
+
+    .product_side{
+        display:flex;
+        margin-top: 27px;
+        margin-left: 17%;
+        
+        width: 60%;
+        justify-content: space-around;
+
+    }
+}
